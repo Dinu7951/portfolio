@@ -1,0 +1,814 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.headding {
+    position: relative;
+    color: #00b2d6;
+    text-align: center;
+}
+
+.headding::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(12, 3, 168, 1) 27%, rgba(9, 9, 121, 1) 50%);
+    left: 300px;
+    top: 50%;
+
+}
+
+.headding::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(270deg, rgba(0, 212, 255, 1) 0%, rgba(12, 3, 168, 1) 27%, rgba(9, 9, 121, 1) 50%);
+    right: 300px;
+    top: 50%;
+}
+
+.me-1 {
+    padding: 30px;
+    margin: 30px;
+    padding-bottom: 20px;
+    text-align: start;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 17px;
+
+}
+
+.res-bt {
+
+    color: white;
+    border-radius: 50px;
+    width: 200px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    left: 1000px;
+    top: -180px;
+    background-color: transparent;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+
+}
+
+.res-bt::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    text-align: center;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(12, 3, 168, 1) 64%, rgba(9, 9, 121, 1) 100%);
+    top: 2px;
+    border: 2px solid white;
+    z-index: -1;
+    left: -55px;
+    cursor: pointer;
+    box-shadow: 30px 0 100px #00d4ff, -10px 0 100px #0c03a8;
+}
+
+.img img {
+    width: 500px;
+    clip-path: circle(35.6% at 45% 55%);
+    position: relative;
+    filter: grayscale(20%);
+}
+
+.boz {
+    margin: 0px 60px 60px 40px;
+
+}
+
+.boz div {
+    padding: 30px;
+}
+
+.boz h1 {
+    text-align: left;
+    margin: 10px;
+    color: rgb(107, 203, 248);
+
+}
+
+.boz section {
+    padding: 10px;
+}
+
+.study-b {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.ski {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.scontainer {
+    padding: 50px;
+    width: calc(100%/6);
+    margin: 30px;
+    font-size: 10px;
+
+    text-align: center;
+
+}
+
+.scontainer:hover {
+
+    box-shadow: 30px 0 100px #00d4ff, -10px 0 100px #0c03a8;
+}
+
+.first {
+    color: white;
+    font-size: 14px;
+    margin: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bit {
+    color: white;
+    padding: 30px;
+    margin: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    list-style-type: disc;
+}
+
+.contact h1 {
+    color: white;
+    padding: 30px;
+    margin: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.c-form {
+    margin: 10px 0 0 90px;
+    border: 2px solid white;
+    border-image: linear-gradient(to right, rgba(0, 212, 255, 1) 0%, rgba(12, 3, 168, 1) 67%, rgba(9, 9, 121, 1) 100%) 1;
+
+    width: 600px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.c-form div label {
+    color: white;
+    display: block;
+    font-size: 18px;
+}
+
+.c-form div {
+    margin: 10px;
+}
+
+.c-form div input {
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.c-form div textarea {
+    margin: 20px;
+    width: 500px;
+    height: 30vh;
+    border: 1px solid white;
+    display: block;
+    border-radius: 10px;
+
+}
+
+.c-form div input,
+textarea::placeholder {
+    padding: 10px;
+    font-size: 14px;
+    color: gray;
+
+}
+
+.cont {
+    display: flex;
+
+}
+
+
+.social {
+
+    position: relative;
+    left: 200px;
+    height: 400px;
+    padding: 10px;
+    top: 10px;
+
+}
+
+.social h3,
+span {
+    color: white;
+    margin: 10px;
+}
+
+.social h1 {
+    font-size: 20px;
+}
+
+.icon {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#Projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    flex-direction: column;
+}
+
+
+
+.pro {
+    height: 200px;
+    width: 700px;
+    margin: 50px;
+}
+
+.pro a {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+    line-height: 20px;
+}
+
+.pro h3:hover {
+    cursor: pointer;
+}
+
+.pro h3 {
+    color: #ffffff;
+    margin: 30px 30px 0 30px;
+}
+
+.pro p {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 500;
+    padding: 0px 30px 30px 30px;
+
+}
+
+.border {
+    border-image: linear-gradient(to right, rgba(0, 212, 255, 1) 0%, rgba(12, 3, 168, 1) 67%, rgba(9, 9, 121, 1) 100%) 1;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1px;
+}
+
+.but {
+    color: white;
+    background: none;
+    /* background-color: transparent; */
+    border: none;
+    margin: 40px;
+    text-decoration: underline;
+    cursor: cell;
+}
+
+@media (max-width: 1024px) {
+    .headding {
+        font-size: 30px;
+    }
+
+    .headding::before {
+        width: 250px;
+        height: 3px;
+        left: 100px;
+        top: 50%;
+    }
+
+    .headding::after {
+        width: 250px;
+        height: 3px;
+        right: 100px;
+        top: 50%;
+    }
+
+    .res-bt {
+        color: white;
+        border-radius: 50px;
+        width: 180px;
+        height: 50px;
+        padding: 18px;
+        font-weight: 600;
+        font-size: 14px;
+        position: relative;
+        left: 700px;
+        top: -100px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .img img {
+        width: 350px;
+        clip-path: circle(40% at 50% 50%);
+        position: relative;
+        filter: grayscale(20%);
+    }
+
+    .boz {
+        margin: 20px;
+    }
+
+    .boz h1 {
+        font-size: 22px;
+        /* reduced */
+    }
+
+    .study-b {
+        font-size: 14px;
+        /* reduced */
+    }
+
+    .scontainer {
+        padding: 20px;
+        width: calc(100% / 5);
+        /* 3 per row */
+        margin: 15px;
+        font-size: 12px;
+        /* reduced */
+    }
+
+    .first {
+        font-size: 12px;
+        /* reduced */
+    }
+
+    .bit {
+        font-size: 14px;
+        /* reduced */
+    }
+
+    .contact h1 {
+        font-size: 16px;
+        /* reduced */
+    }
+
+    .c-form {
+        width: 50%;
+        margin: 20px auto;
+        flex-direction: column;
+        /* stacked */
+    }
+
+    .c-form div label {
+        font-size: 14px;
+        /* reduced */
+    }
+
+    .c-form div input {
+        width: 90%;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .c-form div textarea {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .social {
+        left: -12px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    .social h1 {
+        font-size: 16px;
+        /* reduced */
+    }
+
+    .social h3,
+    .social span {
+        font-size: 14px;
+        /* reduced */
+    }
+
+    .pro {
+        width: 70%;
+
+    }
+
+    .pro h3 {
+        font-size: 16px;
+        /* reduced */
+    }
+
+    .pro p {
+        font-size: 14px;
+        /* reduced */
+    }
+
+    .but {
+        font-size: 14px;
+        /* reduced */
+    }
+
+}
+
+@media (max-width: 768px) {
+    .headding {
+        font-size: 25px;
+    }
+
+    .headding::before {
+        width: 150px;
+        height: 2px;
+        left: 50px;
+    }
+
+    .headding::after {
+        width: 150px;
+        height: 2px;
+        right: 50px;
+    }
+
+    .res-bt {
+        width: 180px;
+        height: 60px;
+        padding: 12px;
+        font-size: 12px;
+        left: 420px;
+        top: -100px;
+    }
+
+    .img img {
+        width: 250px;
+        clip-path: circle(42% at 50% 50%);
+    }
+
+    .boz {
+        margin: 15px;
+    }
+
+    .boz h1 {
+        font-size: 18px;
+    }
+
+    .study-b {
+        font-size: 12px;
+    }
+
+    .scontainer {
+        padding: 15px;
+        width: calc(100% / 4);
+        margin: 10px;
+        font-size: 11px;
+    }
+
+    .first {
+        font-size: 11px;
+    }
+
+    .bit {
+        font-size: 12px;
+    }
+
+    .contact h1 {
+        font-size: 14px;
+    }
+
+    .c-form {
+        width: 50%;
+        padding: 30px;
+        /* margin: 15px auto; */
+    }
+
+    .c-form div label {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .c-form div input {
+        width: 90%;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .c-form div textarea {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .social {
+        left: 0;
+        margin-top: 15px;
+    }
+
+    .social h1 {
+        font-size: 14px;
+    }
+
+    .social h3,
+    .social span {
+        font-size: 12px;
+    }
+
+    .pro {
+        width: 70%;
+    }
+
+    .pro h3 {
+        font-size: 14px;
+    }
+
+    .pro p {
+        font-size: 12px;
+    }
+
+    .but {
+        margin: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 425px) {
+    .headding {
+        font-size: 20px;
+    }
+
+    .me-1 {
+        font-size: 14px;
+    }
+
+    .headding::before,
+    .headding::after {
+        width: 60px;
+        height: 2px;
+    }
+
+    .res-bt {
+        width: 60px;
+        height: 45px;
+        font-size: 1px;
+        padding: 10px;
+        font-size: 11px;
+        left: 230px;
+        top: -80px;
+    }
+
+    .res-bt::after {
+        width: 180px;
+        height: 40px;
+    }
+
+    .img img {
+        width: 200px;
+        clip-path: circle(45% at 50% 50%);
+    }
+
+    .boz {
+        margin: 10px;
+    }
+
+    .boz h1 {
+        font-size: 16px;
+    }
+
+    .study-b {
+        font-size: 11px;
+    }
+
+    .scontainer {
+        width: calc(100% / 3);
+        /* 2 per row */
+        font-size: 10px;
+        padding: 10px;
+        margin: 8px;
+    }
+
+    .first {
+        font-size: 10px;
+    }
+
+    .bit {
+        font-size: 11px;
+    }
+
+    .contact h1 {
+        font-size: 12px;
+    }
+
+    .c-form {
+        width: 90%;
+        padding: 15px;
+
+    }
+
+    .cont {
+        display: block;
+    }
+
+    .c-form div label {
+        font-size: 11px;
+    }
+
+    .c-form div input,
+    .c-form div textarea {
+        width: 90%;
+        font-size: 11px;
+    }
+
+    .c-form::placeholder {
+        font-size: 10px;
+    }
+
+    .social h1 {
+        font-size: 13px;
+    }
+
+    .social {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .social h3,
+    .social span {
+        font-size: 11px;
+    }
+
+    .pro {
+        width: 80%;
+    }
+
+    .pro h3 {
+        font-size: 13px;
+    }
+
+    .pro p {
+        font-size: 11px;
+    }
+
+    .but {
+        font-size: 11px;
+        margin: 5px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .headding {
+        font-size: 18px;
+    }
+
+    .me-1 {
+        font-size: 12px;
+    }
+
+    .headding::before,
+    .headding::after {
+        width: 50px;
+        height: 2px;
+    }
+
+    .res-bt {
+        width: 55px;
+        height: 40px;
+        padding: 8px;
+        font-size: 10px;
+        left: 200px;
+        top: -70px;
+    }
+
+    .res-bt::after {
+        width: 150px;
+        height: 35px;
+    }
+
+    .img img {
+        width: 180px;
+        clip-path: circle(45% at 50% 50%);
+    }
+
+    .boz {
+        margin: 8px;
+    }
+
+    .boz h1 {
+        font-size: 14px;
+    }
+
+    .study-b {
+        font-size: 10px;
+    }
+
+    .scontainer {
+        width: calc(100% / 3);
+        font-size: 9px;
+        padding: 8px;
+        margin: 6px;
+    }
+
+    .first {
+        font-size: 9px;
+    }
+
+    .bit {
+        font-size: 10px;
+    }
+
+    .contact h1 {
+        font-size: 11px;
+    }
+
+    .c-form {
+        width: 95%;
+        padding: 12px;
+    }
+
+    .cont {
+        display: block;
+    }
+
+    .c-form div label {
+        font-size: 10px;
+    }
+
+    .c-form div input,
+    .c-form div textarea {
+        width: 90%;
+        font-size: 10px;
+    }
+
+    .c-form::placeholder {
+        font-size: 9px;
+    }
+
+    .social {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .social h1 {
+        font-size: 12px;
+    }
+
+    .social h3,
+    .social span {
+        font-size: 10px;
+    }
+
+    .pro {
+        width: 85%;
+    }
+
+    .pro h3 {
+        font-size: 12px;
+    }
+
+    .pro p {
+        font-size: 10px;
+    }
+
+    .but {
+        font-size: 10px;
+        margin: 5px;
+    }
+}
