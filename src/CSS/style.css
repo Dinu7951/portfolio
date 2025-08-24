@@ -54,3 +54,10 @@
     }
 
 }
+
+@media (max-width:480px) {
+    .Nav a {
+        display: none;
+    }
+
+}

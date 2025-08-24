@@ -693,22 +693,126 @@ span {
 
 }
 
-@media (max-width: 430px) {
+@media (max-width: 480px) {
     .headding {
         font-size: 20px;
     }
 
+    .me-1 {
+        font-size: 14px;
+    }
+
+    .headding::before,
+    .headding::after {
+        width: 70px;
+        height: 2px;
+    }
+
     .res-bt {
-        left: 220px;
+        width: 120px;
+        height: 45px;
+        padding: 10px;
+        font-size: 12px;
+        left: 200px;
         top: -80px;
     }
 
-    .img img {
-        width: 200px;
+    .res-bt::after {
+        width: 180px;
+        height: 40px;
     }
 
-    /* ... rest of your styles */
+    .img img {
+        width: 220px;
+        clip-path: circle(45% at 50% 50%);
+    }
+
+    .boz {
+        margin: 10px;
+    }
+
+    .boz h1 {
+        font-size: 16px;
+    }
+
+    .study-b {
+        font-size: 12px;
+    }
+
+    .scontainer {
+        width: calc(100% / 3);
+        font-size: 11px;
+        padding: 10px;
+        margin: 8px;
+    }
+
+    .first {
+        font-size: 11px;
+    }
+
+    .bit {
+        font-size: 12px;
+    }
+
+    .contact h1 {
+        font-size: 13px;
+    }
+
+    .c-form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .cont {
+        display: block;
+    }
+
+    .c-form div label {
+        font-size: 12px;
+    }
+
+    .c-form div input,
+    .c-form div textarea {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .c-form::placeholder {
+        font-size: 11px;
+    }
+
+    .social {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .social h1 {
+        font-size: 14px;
+    }
+
+    .social h3,
+    .social span {
+        font-size: 12px;
+    }
+
+    .pro {
+        width: 85%;
+    }
+
+    .pro h3 {
+        font-size: 14px;
+    }
+
+    .pro p {
+        font-size: 12px;
+    }
+
+    .but {
+        font-size: 12px;
+        margin: 5px;
+    }
 }
+
 
 
 @media (max-width: 375px) {

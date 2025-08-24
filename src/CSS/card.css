@@ -255,6 +255,70 @@
     }
 }
 
+@media (max-width: 480px) {
+    .cards {
+        display: block;
+        padding: 40px;
+    }
+
+    .imge img {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+        position: static;
+        clip-path: inset(8% 18% 16% 20%);
+    }
+
+    .hr {
+        margin-left: 20px;
+        margin-top: 12px;
+        width: 2px;
+        height: 710px;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+    .me span {
+        font-size: 10px;
+        letter-spacing: 0px;
+        font-weight: 500;
+    }
+
+    .me {
+        line-height: 12px;
+    }
+
+    #wave {
+        font-size: 16px;
+    }
+
+    .hii {
+        width: 15px;
+        height: 15px;
+    }
+
+    .res {
+        padding: 6px;
+        margin-top: 20px;
+        font-size: 9px;
+        width: 100px;
+    }
+
+    .me h1 {
+        font-size: 20px;
+    }
+
+    .me h2 {
+        font-size: 14px;
+    }
+
+    .hor {
+        margin-left: 20px;
+        transform: translateY(-35px);
+        height: 3px;
+    }
+}
+
 @media (max-width: 375px) {
     .cards {
         display: block;
