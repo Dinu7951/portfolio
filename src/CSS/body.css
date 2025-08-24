@@ -569,7 +569,7 @@ span {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     .headding {
         font-size: 20px;
     }
@@ -692,6 +692,24 @@ span {
     }
 
 }
+
+@media (max-width: 430px) {
+    .headding {
+        font-size: 20px;
+    }
+
+    .res-bt {
+        left: 220px;
+        top: -80px;
+    }
+
+    .img img {
+        width: 200px;
+    }
+
+    /* ... rest of your styles */
+}
+
 
 @media (max-width: 375px) {
     .headding {
